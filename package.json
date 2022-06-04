@@ -1,0 +1,27 @@
+{
+  "name": "como-apoyar-server",
+  "version": "1.0.0",
+  "description": "API for Como Apoyar web app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarsgdev/como-apoyar.git"
+  },
+  "author": "Cesar Sepulveda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarsgdev/como-apoyar/issues"
+  },
+  "homepage": "https://github.com/cesarsgdev/como-apoyar#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5"
+  }
+}
