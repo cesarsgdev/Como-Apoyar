@@ -40,7 +40,9 @@ const centersSchema = new Schema(
       maxlength: 50,
     },
 
-    instructions: {
+    hours: { type: [{ type: String }], default: ["24 hours"] },
+
+    notes: {
       type: String,
       required: false,
       trim: true,
